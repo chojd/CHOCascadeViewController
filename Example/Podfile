@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CHOCascadeViewController_Example' do
+  pod 'CHOCascadeViewController', :path => '../'
+
+  target 'CHOCascadeViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
