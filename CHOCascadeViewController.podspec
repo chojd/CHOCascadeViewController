@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHOCascadeViewController'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of CHOCascadeViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -36,14 +36,19 @@ TODO: Add long description of the pod here.
 
   s.subspec 'Controllers' do |ss|
     ss.source_files = 'Sources/Controllers/*'
+
+    ss.dependency 'CHOCascadeViewController/Views'
+    ss.dependency 'CHOCascadeViewController/Defines'
   end
 
   s.subspec 'Views' do |ss|
     ss.source_files = 'Sources/Views/*'
+    ss.dependency 'CHOCascadeViewController/Defines'
   end
 
   s.subspec 'Models' do |ss|
     ss.source_files = 'Sources/Models/*'
+    ss.dependency 'CHOCascadeViewController/Defines'
   end
 
   s.frameworks = 'UIKit'
