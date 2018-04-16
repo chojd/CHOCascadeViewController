@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CHOCascadeViewController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A short description of CHOCascadeViewController.'
 
 # This description is used to generate tags and improve search results.
@@ -30,13 +30,22 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'CHOCascadeViewController/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CHOCascadeViewController' => ['CHOCascadeViewController/Assets/*.png']
-  # }
+  s.subspec 'Defines' do |ss|
+    ss.source_files = 'Sources/Defines/*'
+  end
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Controllers' do |ss|
+    ss.source_files = 'Sources/Controllers/*'
+  end
+
+  s.subspec 'Views' do |ss|
+    ss.source_files = 'Sources/Views/*'
+  end
+
+  s.subspec 'Models' do |ss|
+    ss.source_files = 'Sources/Models/*'
+  end
+
+  s.frameworks = 'UIKit'
+
 end

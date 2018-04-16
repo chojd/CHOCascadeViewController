@@ -1,0 +1,6 @@
+framework module CHOCascadeViewController {
+  umbrella header "CHOCascadeViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

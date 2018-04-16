@@ -1,0 +1,6 @@
+framework module Pods_CHOCascadeViewController_Tests {
+  umbrella header "Pods-CHOCascadeViewController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

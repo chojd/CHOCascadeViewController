@@ -22,7 +22,7 @@ pod 'CHOCascadeViewController'
 
 ## Author
 
-chojd, jingda.cao@mfashion.com.cn
+chojd, i@chojd.com
 
 ## License
 

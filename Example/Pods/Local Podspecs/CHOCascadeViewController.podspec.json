@@ -1,0 +1,40 @@
+{
+  "name": "CHOCascadeViewController",
+  "version": "0.1.1",
+  "summary": "A short description of CHOCascadeViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chojd/CHOCascadeViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chojd": "jingda.cao@mfashion.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/chojd/CHOCascadeViewController.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": "UIKit",
+  "subspecs": [
+    {
+      "name": "Defines",
+      "source_files": "Sources/Defines/*"
+    },
+    {
+      "name": "Controllers",
+      "source_files": "Sources/Controllers/*"
+    },
+    {
+      "name": "Views",
+      "source_files": "Sources/Views/*"
+    },
+    {
+      "name": "Models",
+      "source_files": "Sources/Models/*"
+    }
+  ]
+}

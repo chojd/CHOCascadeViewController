@@ -1,0 +1,671 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CFDD40949000D786331177501E6DFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		1631515189DAC823EEF70562EFBD3831 /* CHOCascadeViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9975BEB11179084948A71CF13F271E7D /* CHOCascadeViewController-dummy.m */; };
+		1C16ECD17C9A148A6F29A95C79ABD253 /* CHOCascadeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 06DCEC593DB39441AA52A018ED3AF8CE /* CHOCascadeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BE955AAA2B63A09F53E734FFC5CA764 /* CHOCascadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3E251B5AF4EAF538BD5786818E662B /* CHOCascadeViewController.m */; };
+		3927E3A69607326797C6164A7DB62594 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		4778E4C5E03200294C52925631BD3369 /* CHOCascadeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = C067396473F0EEAA7C6F5D7C120187EE /* CHOCascadeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F64FAD110D193BC5896F1AAB8956F71 /* CHOCascadeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B1EBB898F3841FEEB77DAE02780769C /* CHOCascadeCell.m */; };
+		78CF3DD9616717706A8FB10CA676ECF7 /* CHOCascadeSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 084290669F7BDF8D861E84A3C2C4A2AF /* CHOCascadeSectionView.m */; };
+		7B3F5E1EB5CC7228EA2CEF9A06CC26DC /* Pods-CHOCascadeViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 184729C74139A8A835790606A5A6EDF5 /* Pods-CHOCascadeViewController_Tests-dummy.m */; };
+		822ACEB82E9CC2E4F336039F07F05EC9 /* ICHOCascadeItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 80DDE36E981E1012B865708DD6D80D07 /* ICHOCascadeItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DF4BA4A66377B9ED577782109007F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		A4467C16CA873CAADF86818101945573 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		B8790BCD893548ABFF70930C37C7320C /* Pods-CHOCascadeViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFA7FFBAFBDEAC4FB60E13B450A140F /* Pods-CHOCascadeViewController_Example-dummy.m */; };
+		BA365E9C146059B94263EF6C1BEC933C /* CHOCascadeViewControllerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C442F86CF1EE5E4A6589FE529B71C6BD /* CHOCascadeViewControllerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E09998C562F6E8AF58E4A88F89AD6F60 /* CHOCascadeCell.h in Headers */ = {isa = PBXBuildFile; fileRef = BF0BC0CD7BBD9CC6CE07F74DA88A50A6 /* CHOCascadeCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E190536ADD14DF1BB550603702145245 /* CHOCascadeSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = B615B3B731DCBC9013FF3FC5202AC6F1 /* CHOCascadeSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0EF6238F78960E31A4CC013B943075E /* CHOCascadeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F6AB43C8B7D84BAAFB9F5BB89052CA /* CHOCascadeItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8050AA11D00B425898F3E23B7EB180A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 004F541E06355F6B20C62C8ED1476308;
+			remoteInfo = CHOCascadeViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F6AB43C8B7D84BAAFB9F5BB89052CA /* CHOCascadeItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOCascadeItem.m; path = Sources/Models/CHOCascadeItem.m; sourceTree = "<group>"; };
+		06DCEC593DB39441AA52A018ED3AF8CE /* CHOCascadeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCascadeViewController.h; path = Sources/Controllers/CHOCascadeViewController.h; sourceTree = "<group>"; };
+		084290669F7BDF8D861E84A3C2C4A2AF /* CHOCascadeSectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOCascadeSectionView.m; path = Sources/Views/CHOCascadeSectionView.m; sourceTree = "<group>"; };
+		0987B37089D05C5DDE83ECCBE7E14FF7 /* Pods-CHOCascadeViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOCascadeViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
+		184729C74139A8A835790606A5A6EDF5 /* Pods-CHOCascadeViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOCascadeViewController_Tests-dummy.m"; sourceTree = "<group>"; };
+		2EF946EC44A9F5C0FAB49480936C738F /* Pods-CHOCascadeViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOCascadeViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F6F92AD4985B3ACEC7421DCEEB534C0 /* Pods-CHOCascadeViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOCascadeViewController_Example-resources.sh"; sourceTree = "<group>"; };
+		6588ED638EEB86FAF615691B45994D6E /* Pods-CHOCascadeViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOCascadeViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6CFA7FFBAFBDEAC4FB60E13B450A140F /* Pods-CHOCascadeViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CHOCascadeViewController_Example-dummy.m"; sourceTree = "<group>"; };
+		6F0E4A1ABD2E6C375716CD12CD37CF12 /* Pods-CHOCascadeViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOCascadeViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		740BDD918BAF83D7D9772D6D83A51013 /* Pods-CHOCascadeViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOCascadeViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7F3E251B5AF4EAF538BD5786818E662B /* CHOCascadeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOCascadeViewController.m; path = Sources/Controllers/CHOCascadeViewController.m; sourceTree = "<group>"; };
+		80A906969F291847DFEEA39801FB87AD /* Pods-CHOCascadeViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CHOCascadeViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		80DDE36E981E1012B865708DD6D80D07 /* ICHOCascadeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ICHOCascadeItem.h; path = Sources/Defines/ICHOCascadeItem.h; sourceTree = "<group>"; };
+		8694C78B99C6F9E09342E1A688D4BF58 /* Pods-CHOCascadeViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CHOCascadeViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8B1EBB898F3841FEEB77DAE02780769C /* CHOCascadeCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CHOCascadeCell.m; path = Sources/Views/CHOCascadeCell.m; sourceTree = "<group>"; };
+		904303A10DDC41F92186CB058D641483 /* libCHOCascadeViewController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCHOCascadeViewController.a; path = libCHOCascadeViewController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9975BEB11179084948A71CF13F271E7D /* CHOCascadeViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHOCascadeViewController-dummy.m"; sourceTree = "<group>"; };
+		A19B6AF5FD3606161FD3AD44243A4B01 /* Pods-CHOCascadeViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOCascadeViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		AC558606CCC820A68B12879C55A6A013 /* libPods-CHOCascadeViewController_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHOCascadeViewController_Example.a"; path = "libPods-CHOCascadeViewController_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEAAC6AC7C0825A3A976036651A67EDF /* CHOCascadeViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHOCascadeViewController-prefix.pch"; sourceTree = "<group>"; };
+		B218C8E2CD44F2DD3E99600C84B516FC /* CHOCascadeViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHOCascadeViewController.xcconfig; sourceTree = "<group>"; };
+		B36FD2CD94B18A42251C1EB7025F0965 /* Pods-CHOCascadeViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CHOCascadeViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B615B3B731DCBC9013FF3FC5202AC6F1 /* CHOCascadeSectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCascadeSectionView.h; path = Sources/Views/CHOCascadeSectionView.h; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF0BC0CD7BBD9CC6CE07F74DA88A50A6 /* CHOCascadeCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCascadeCell.h; path = Sources/Views/CHOCascadeCell.h; sourceTree = "<group>"; };
+		C067396473F0EEAA7C6F5D7C120187EE /* CHOCascadeItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCascadeItem.h; path = Sources/Models/CHOCascadeItem.h; sourceTree = "<group>"; };
+		C442F86CF1EE5E4A6589FE529B71C6BD /* CHOCascadeViewControllerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CHOCascadeViewControllerDelegate.h; path = Sources/Defines/CHOCascadeViewControllerDelegate.h; sourceTree = "<group>"; };
+		C92EA9150B803DB762631D729C94C02F /* Pods-CHOCascadeViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOCascadeViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D1ACD2D80C08605C032FDDE0BB5575B1 /* libPods-CHOCascadeViewController_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-CHOCascadeViewController_Tests.a"; path = "libPods-CHOCascadeViewController_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E8EE98E4593E7691FED104B16BD5C4FB /* Pods-CHOCascadeViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CHOCascadeViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE3C8CF230DC65699795293F5588D26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3927E3A69607326797C6164A7DB62594 /* Foundation.framework in Frameworks */,
+				A4467C16CA873CAADF86818101945573 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2CF463EA9A3B5AC83393FAF0F836006 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93DF4BA4A66377B9ED577782109007F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F61F7D8CD902CC79E5B75BCF3681B628 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10CFDD40949000D786331177501E6DFD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016888A8FB140D307C90B2B6DC9BC674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C067396473F0EEAA7C6F5D7C120187EE /* CHOCascadeItem.h */,
+				02F6AB43C8B7D84BAAFB9F5BB89052CA /* CHOCascadeItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0405828856F9723BA4CDCB2398B188EB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				06DCEC593DB39441AA52A018ED3AF8CE /* CHOCascadeViewController.h */,
+				7F3E251B5AF4EAF538BD5786818E662B /* CHOCascadeViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		10FC73B4A4135453B846E1C16383BBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904303A10DDC41F92186CB058D641483 /* libCHOCascadeViewController.a */,
+				AC558606CCC820A68B12879C55A6A013 /* libPods-CHOCascadeViewController_Example.a */,
+				D1ACD2D80C08605C032FDDE0BB5575B1 /* libPods-CHOCascadeViewController_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		148E26A4A90714BFDD823637F5AFD2DF /* Pods-CHOCascadeViewController_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C92EA9150B803DB762631D729C94C02F /* Pods-CHOCascadeViewController_Example-acknowledgements.markdown */,
+				8694C78B99C6F9E09342E1A688D4BF58 /* Pods-CHOCascadeViewController_Example-acknowledgements.plist */,
+				6CFA7FFBAFBDEAC4FB60E13B450A140F /* Pods-CHOCascadeViewController_Example-dummy.m */,
+				740BDD918BAF83D7D9772D6D83A51013 /* Pods-CHOCascadeViewController_Example-frameworks.sh */,
+				4F6F92AD4985B3ACEC7421DCEEB534C0 /* Pods-CHOCascadeViewController_Example-resources.sh */,
+				6588ED638EEB86FAF615691B45994D6E /* Pods-CHOCascadeViewController_Example.debug.xcconfig */,
+				0987B37089D05C5DDE83ECCBE7E14FF7 /* Pods-CHOCascadeViewController_Example.release.xcconfig */,
+			);
+			name = "Pods-CHOCascadeViewController_Example";
+			path = "Target Support Files/Pods-CHOCascadeViewController_Example";
+			sourceTree = "<group>";
+		};
+		2998589A665353A9F1F115EAA1C1AF78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF0BC0CD7BBD9CC6CE07F74DA88A50A6 /* CHOCascadeCell.h */,
+				8B1EBB898F3841FEEB77DAE02780769C /* CHOCascadeCell.m */,
+				B615B3B731DCBC9013FF3FC5202AC6F1 /* CHOCascadeSectionView.h */,
+				084290669F7BDF8D861E84A3C2C4A2AF /* CHOCascadeSectionView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7036533FC85EFEC31882CA344ACDC22B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B218C8E2CD44F2DD3E99600C84B516FC /* CHOCascadeViewController.xcconfig */,
+				9975BEB11179084948A71CF13F271E7D /* CHOCascadeViewController-dummy.m */,
+				AEAAC6AC7C0825A3A976036651A67EDF /* CHOCascadeViewController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CHOCascadeViewController";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				80C72DD99E4C8D956A7E262CF756AC2F /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				10FC73B4A4135453B846E1C16383BBEB /* Products */,
+				E910B0079176C9FB4E040B8B8151A67E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		80C72DD99E4C8D956A7E262CF756AC2F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F88967B7AD59B409C3E8494FD2113E20 /* CHOCascadeViewController */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		957BACFE3E2ACB9CC9BC061AD3858D80 /* Pods-CHOCascadeViewController_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E8EE98E4593E7691FED104B16BD5C4FB /* Pods-CHOCascadeViewController_Tests-acknowledgements.markdown */,
+				2EF946EC44A9F5C0FAB49480936C738F /* Pods-CHOCascadeViewController_Tests-acknowledgements.plist */,
+				184729C74139A8A835790606A5A6EDF5 /* Pods-CHOCascadeViewController_Tests-dummy.m */,
+				B36FD2CD94B18A42251C1EB7025F0965 /* Pods-CHOCascadeViewController_Tests-frameworks.sh */,
+				A19B6AF5FD3606161FD3AD44243A4B01 /* Pods-CHOCascadeViewController_Tests-resources.sh */,
+				6F0E4A1ABD2E6C375716CD12CD37CF12 /* Pods-CHOCascadeViewController_Tests.debug.xcconfig */,
+				80A906969F291847DFEEA39801FB87AD /* Pods-CHOCascadeViewController_Tests.release.xcconfig */,
+			);
+			name = "Pods-CHOCascadeViewController_Tests";
+			path = "Target Support Files/Pods-CHOCascadeViewController_Tests";
+			sourceTree = "<group>";
+		};
+		DCC8C87275A1CA1CC8A7C2DBE5460D56 /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				C442F86CF1EE5E4A6589FE529B71C6BD /* CHOCascadeViewControllerDelegate.h */,
+				80DDE36E981E1012B865708DD6D80D07 /* ICHOCascadeItem.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		E910B0079176C9FB4E040B8B8151A67E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				148E26A4A90714BFDD823637F5AFD2DF /* Pods-CHOCascadeViewController_Example */,
+				957BACFE3E2ACB9CC9BC061AD3858D80 /* Pods-CHOCascadeViewController_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F88967B7AD59B409C3E8494FD2113E20 /* CHOCascadeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0405828856F9723BA4CDCB2398B188EB /* Controllers */,
+				DCC8C87275A1CA1CC8A7C2DBE5460D56 /* Defines */,
+				016888A8FB140D307C90B2B6DC9BC674 /* Models */,
+				7036533FC85EFEC31882CA344ACDC22B /* Support Files */,
+				2998589A665353A9F1F115EAA1C1AF78 /* Views */,
+			);
+			name = CHOCascadeViewController;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		25274053A9073B6C8750E74AFECCFBDB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E09998C562F6E8AF58E4A88F89AD6F60 /* CHOCascadeCell.h in Headers */,
+				4778E4C5E03200294C52925631BD3369 /* CHOCascadeItem.h in Headers */,
+				E190536ADD14DF1BB550603702145245 /* CHOCascadeSectionView.h in Headers */,
+				1C16ECD17C9A148A6F29A95C79ABD253 /* CHOCascadeViewController.h in Headers */,
+				BA365E9C146059B94263EF6C1BEC933C /* CHOCascadeViewControllerDelegate.h in Headers */,
+				822ACEB82E9CC2E4F336039F07F05EC9 /* ICHOCascadeItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		004F541E06355F6B20C62C8ED1476308 /* CHOCascadeViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5148FEB5894CF450FDAC3174D2B0FA10 /* Build configuration list for PBXNativeTarget "CHOCascadeViewController" */;
+			buildPhases = (
+				29E102F3458000FD8E4AD603B12EAC05 /* Sources */,
+				2EE3C8CF230DC65699795293F5588D26 /* Frameworks */,
+				25274053A9073B6C8750E74AFECCFBDB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHOCascadeViewController;
+			productName = CHOCascadeViewController;
+			productReference = 904303A10DDC41F92186CB058D641483 /* libCHOCascadeViewController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B6CDD9BEAFE317E1319D22D1390D80CC /* Pods-CHOCascadeViewController_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 92DCBE16DA6488C4D8C0DD59D7C8CBCA /* Build configuration list for PBXNativeTarget "Pods-CHOCascadeViewController_Tests" */;
+			buildPhases = (
+				D80E6238E37C7D56A715536B914C6853 /* Sources */,
+				B2CF463EA9A3B5AC83393FAF0F836006 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CHOCascadeViewController_Tests";
+			productName = "Pods-CHOCascadeViewController_Tests";
+			productReference = D1ACD2D80C08605C032FDDE0BB5575B1 /* libPods-CHOCascadeViewController_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC2790B33B961A3384B1F973262FAE87 /* Pods-CHOCascadeViewController_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA67F7A434186BCB1CA5446F349A791D /* Build configuration list for PBXNativeTarget "Pods-CHOCascadeViewController_Example" */;
+			buildPhases = (
+				6A2FA4F10CCBBBD4DB8A9569BACA7EFA /* Sources */,
+				F61F7D8CD902CC79E5B75BCF3681B628 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A74F7B3DA1C82ED4F7E8960B1010939 /* PBXTargetDependency */,
+			);
+			name = "Pods-CHOCascadeViewController_Example";
+			productName = "Pods-CHOCascadeViewController_Example";
+			productReference = AC558606CCC820A68B12879C55A6A013 /* libPods-CHOCascadeViewController_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 10FC73B4A4135453B846E1C16383BBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				004F541E06355F6B20C62C8ED1476308 /* CHOCascadeViewController */,
+				FC2790B33B961A3384B1F973262FAE87 /* Pods-CHOCascadeViewController_Example */,
+				B6CDD9BEAFE317E1319D22D1390D80CC /* Pods-CHOCascadeViewController_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E102F3458000FD8E4AD603B12EAC05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F64FAD110D193BC5896F1AAB8956F71 /* CHOCascadeCell.m in Sources */,
+				F0EF6238F78960E31A4CC013B943075E /* CHOCascadeItem.m in Sources */,
+				78CF3DD9616717706A8FB10CA676ECF7 /* CHOCascadeSectionView.m in Sources */,
+				1631515189DAC823EEF70562EFBD3831 /* CHOCascadeViewController-dummy.m in Sources */,
+				2BE955AAA2B63A09F53E734FFC5CA764 /* CHOCascadeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A2FA4F10CCBBBD4DB8A9569BACA7EFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8790BCD893548ABFF70930C37C7320C /* Pods-CHOCascadeViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D80E6238E37C7D56A715536B914C6853 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B3F5E1EB5CC7228EA2CEF9A06CC26DC /* Pods-CHOCascadeViewController_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A74F7B3DA1C82ED4F7E8960B1010939 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHOCascadeViewController;
+			target = 004F541E06355F6B20C62C8ED1476308 /* CHOCascadeViewController */;
+			targetProxy = 8050AA11D00B425898F3E23B7EB180A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		720DF33E0DC37B85A004AADFAC3E97BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B218C8E2CD44F2DD3E99600C84B516FC /* CHOCascadeViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOCascadeViewController/CHOCascadeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB4F534F60B6FED6749C81790BB83793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B218C8E2CD44F2DD3E99600C84B516FC /* CHOCascadeViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CHOCascadeViewController/CHOCascadeViewController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D8BBDD41B3625500235758C9949D52F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0987B37089D05C5DDE83ECCBE7E14FF7 /* Pods-CHOCascadeViewController_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EA45B1F36CFD34D028259C385EDC2B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F0E4A1ABD2E6C375716CD12CD37CF12 /* Pods-CHOCascadeViewController_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED2A179D90B9FDC16BD0DC86972FB293 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6588ED638EEB86FAF615691B45994D6E /* Pods-CHOCascadeViewController_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4A15DBDDB33385B22163628B3B4DD1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80A906969F291847DFEEA39801FB87AD /* Pods-CHOCascadeViewController_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
+				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5148FEB5894CF450FDAC3174D2B0FA10 /* Build configuration list for PBXNativeTarget "CHOCascadeViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				720DF33E0DC37B85A004AADFAC3E97BC /* Debug */,
+				AB4F534F60B6FED6749C81790BB83793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		92DCBE16DA6488C4D8C0DD59D7C8CBCA /* Build configuration list for PBXNativeTarget "Pods-CHOCascadeViewController_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA45B1F36CFD34D028259C385EDC2B72 /* Debug */,
+				F4A15DBDDB33385B22163628B3B4DD1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA67F7A434186BCB1CA5446F349A791D /* Build configuration list for PBXNativeTarget "Pods-CHOCascadeViewController_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED2A179D90B9FDC16BD0DC86972FB293 /* Debug */,
+				D8BBDD41B3625500235758C9949D52F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

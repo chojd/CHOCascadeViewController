@@ -1,0 +1,24 @@
+PODS:
+  - CHOCascadeViewController (0.1.1):
+    - CHOCascadeViewController/Controllers (= 0.1.1)
+    - CHOCascadeViewController/Defines (= 0.1.1)
+    - CHOCascadeViewController/Models (= 0.1.1)
+    - CHOCascadeViewController/Views (= 0.1.1)
+  - CHOCascadeViewController/Controllers (0.1.1)
+  - CHOCascadeViewController/Defines (0.1.1)
+  - CHOCascadeViewController/Models (0.1.1)
+  - CHOCascadeViewController/Views (0.1.1)
+
+DEPENDENCIES:
+  - CHOCascadeViewController (from `../`)
+
+EXTERNAL SOURCES:
+  CHOCascadeViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CHOCascadeViewController: 6c76d671db70570eeebb9ba793794be04f89a346
+
+PODFILE CHECKSUM: b9b8243bad7f4619a77106e60c47e8e776522ef1
+
+COCOAPODS: 1.4.0.beta.2
